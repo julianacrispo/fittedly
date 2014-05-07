@@ -3,6 +3,9 @@ Fittedly::Application.routes.draw do
  get "faq" => "pages#faq"
  get "about" => "pages#about"
  get "blog" => "pages#blog"
+ get "start" => "pages#start"
+ get "stylesform" => "pages#stylesform"
+ get "lifestyle" => "pages#lifestyle"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -8,5 +8,11 @@ class PagesController < ApplicationController
   end
   def blog
   end
+  def start
+  end
+  def stylesform
+  end
+  def lifestyle
+  end
   
 end

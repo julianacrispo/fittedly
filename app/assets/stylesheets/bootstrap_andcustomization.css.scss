@@ -1,5 +1,18 @@
+/* NAVBAR */
 $navbar-margin-bottom: 0px;
-$text-color: white;
+$navbar-border-radius: 0px;
+
+/* FONTS */
 $font-family-sans-serif: helvetica;
 
+
+/* colors */
+$btn-success-bg: #383838;
+$btn-default-bg: #fba903;
+$btn-default-border: #fba903;
+$state-success-bg: #fba903;
+
+
+/* Containers and Spacing */
+$container-margin-bottom: 50px;
 @import 'bootstrap'; 
