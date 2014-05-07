@@ -1,0 +1,30 @@
+
+<div class="alert alert-success"> ?Name | ?Credits     <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Style Profile?", about_path %></li>
+      <li><%= link_to "My Account?", faq_path %></li>  
+      <li><%= link_to "My Credit?", faq_path %></li> 
+       <li><%= link_to "Sign Out", faq_path %></li> 
+    </ul>
+</div>
+<div class ="container" id="stylestart">
+	<h2> Fit  (spaced) Style </h2>
+	<div class="progress">
+	  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+	    <span class="sr-only">50% Complete (success)</span>
+  	</div>
+
+</div>
+ 	<h4> How would you characterize your personal style? </h4>
+	 	<p> Bohemian Chic	<%= text_field_tag(:query) %> </p>
+	 	<p> Classy	<%= text_field_tag(:query) %> </p>
+	 	<p> Glamorous	<%= text_field_tag(:query) %> </p>
+	 	<p> Romantic	<%= text_field_tag(:query) %> </p>
+	 	<p> Casual Chic	<%= text_field_tag(:query) %> </p>
+	 	<p> Edgy	<%= text_field_tag(:query) %> </p>
+	 	<p> Preppy	<%= text_field_tag(:query) %> </p>
+	<hr>
+	
+
+
+
