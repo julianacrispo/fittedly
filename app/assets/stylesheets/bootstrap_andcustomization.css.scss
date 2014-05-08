@@ -1,14 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-$font-family-sans-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+$font-family-sans-serif: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 /* NAVBAR */
 $navbar-margin-bottom: 0px;
 $navbar-border-radius: 0px;
 
-/* FONTS */
-$font-family-sans-serif: helvetica;
-
+/* padding */
 
 /* colors */
 $btn-success-bg: #383838;
@@ -22,3 +19,35 @@ $container-margin-bottom: 50px;
 
 
 @import 'bootstrap'; 
+
+
+
+.jumbotron {
+	margin: 0px;
+}
+
+#howitworks {
+	margin-top: 50px;
+}
+
+
+#homeabout {
+	margin-top: 50px;
+}
+
+.col-xs-6 {
+	margin-bottom: 20px;
+}
+
+.home-features {
+	margin-left: 50px;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
