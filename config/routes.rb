@@ -1,4 +1,5 @@
 Fittedly::Application.routes.draw do
+  devise_for :users
  root 'pages#home'
  get "faq" => "pages#faq"
  get "about" => "pages#about"
@@ -6,6 +7,8 @@ Fittedly::Application.routes.draw do
  get "start" => "pages#start"
  get "stylesform" => "pages#stylesform"
  get "lifestyle" => "pages#lifestyle"
+ get "profile" => "pages#profile"
+ get "account" => "pages#account"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

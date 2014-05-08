@@ -14,5 +14,9 @@ class PagesController < ApplicationController
   end
   def lifestyle
   end
+  def profile
+  end
+  def account
+  end
   
 end

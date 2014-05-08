@@ -3,12 +3,19 @@
 	<div class="container" style="margin-left: 120px; margin-top: 50px; color: white;">
 		<h1>Unleash Your Style</h1>
 		<p>We'll guide the way </p>
+
+		<% if user_signed_in? %>
+		# do something
+		<% else %>
 			<%= link_to "Get Fitted", start_path, class: "btn btn-default btn-lg"%>
+			<%= link_to "Devise New User Reg", new_user_registration_path, class: "btn btn-default btn-lg"%>
+			<%= link_to "Devise existing user login", new_user_session_path, class: "btn btn-default btn-lg"%>
+			<% end %>
 	</div>
 </div>
 
 <div class="jumbotron">
-	<h2 style="text-align: center;"> We Live to Make You Look Great </h2>
+	<h2 style="text-align: center;"> Awesome Message Here </h2>
 </div>
 <!-- why -->
 	<div id="features">
