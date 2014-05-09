@@ -1,0 +1,56 @@
+
+
+
+	<div class="well well-lg"><div class="container"><h2> Welcome to fittedly </h2>
+	<p> hi %formname% We're excited to start styling you.  Our Style profile helps us get a sense of where your style is now and where you would like it to be.  We're ready to start asking questions, if you're ready to start answering them.  Don't forget - the more we know about you, the better we can sytle for you! (we currently carry sizes 0-14 or XS-XL and we're actively working to increase our range so that we can serve more women well.) </p></div>
+</div>
+</div>
+
+<div class ="container" id="stylestart">
+	<h2> Fit </h2>
+<div class="progress">
+	  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+	    <span class="sr-only">25% Complete (success)</span>
+  </div>
+</div>
+	<h3>Date of Birth </h4>
+	<%= date_field(:user, :born_on) %>
+	<hr>
+	<h4> Height?</h4>
+	<%= number_field(:height, :feet, in: 4..6) %>  feet <%= number_field(:height, :inches, in: 0..11) %> inches
+	<hr>
+	<h4> Weight?-needs fix </h4>
+	<%= number_field(:weight, :lbs, in: 90..250) %> lbs
+
+	<hr>
+	<h4> Bra size? - needs fix </h4>
+	<%= number_field(:brasize, :inches, in: 30..42) %> 
+	<%= number_field(:brasize, :inches, in: 30..42) %> 
+	<hr>
+	<h4> Dress size? </h4>
+	<%= number_field(:brasize, :inches, in: 30..42) %> <%= link_to "Size Chart", faq_path %>
+	<hr>
+	<h4>What size do you normally wear for blouses and shirts? </h4>
+	<%= text_field_tag(:query) %>
+	<hr>
+	<h4> What size do you normally wear for skirts and pants?</h4>
+	<%= text_field_tag(:query) %>
+	<hr>
+	<h4>How do you prefer clothes to fit the top half of your body?</h4>
+		<%= text_field_tag(:query) %>
+	<hr>
+	<h4>How do you prefer clothes to fit the top half of your body?</h4>
+		<%= text_field_tag(:query) %>
+	<hr>
+	<h4> Are you curvy on your bottom half?</h4>
+	<%= radio_button_tag(:yes, "yes") %> Yes
+	<%= radio_button_tag(:no, "no") %>  No
+	<hr>
+	<h4> How would you characterize your proportions? </h4>
+	Torso <%= text_field_tag(:query) %> Arms <%= text_field_tag(:query) %> Legs <%= text_field_tag(:query) %> Shoulders <%= text_field_tag(:query) %> Hips <%= text_field_tag(:query) %>
+
+<hr>
+
+		<%= link_to "Next", stylesform_path, class: "btn btn-success btn-lg"%>
+	<hr>
+</div> <!-- container style start end-->
